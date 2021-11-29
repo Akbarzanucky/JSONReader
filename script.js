@@ -7,8 +7,6 @@ function appendData(data){
       }
 }
 
-
-
 fetch('test.json')
   .then(function (response) {
     return response.json(); //fetching json data
